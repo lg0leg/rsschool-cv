@@ -1,0 +1,396 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 19px;
+}
+
+.logo-link {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-link:hover {
+  transform: scale(1.1);
+}
+
+.logo {
+  margin-right: 15px;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #f7f7f7;
+}
+
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-item {
+  margin-right: 61px;
+}
+
+.header-item:last-child {
+  margin-right: 0px;
+}
+
+.header-link {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 60px;
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: #e39128;
+}
+
+.header-link:active {
+  color: #8f5613;
+}
+
+.find-icon:hover {
+  transform: scale(2);
+}
+
+.find-icon:active {
+  transform: scale(1.5);
+}
+
+.sign-in {
+  border: 2px solid #cd6326;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.bg-fox {
+  background-color: #02160b;
+  background: url(./assets/fox.png) no-repeat center;
+  height: 780px;
+}
+
+.survival-content {
+  margin-top: 120px;
+}
+
+.wrapper-surv {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.survival {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 2px;
+  color: #cd6326;
+  padding-bottom: 51px;
+}
+
+.survival-description {
+  width: 274px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f7f7f7;
+  padding-bottom: 49px;
+}
+
+.donate {
+  width: 160px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  text-align: center;
+  color: #f7f7f7;
+  text-decoration: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: #cd6326;
+  border-radius: 5px;
+}
+
+.donate:hover {
+  background: #e39128;
+}
+
+.donate:active {
+  background: #8f5613;
+}
+
+main {
+  height: 1368px;
+  background-color: #cccccc;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.articles {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #333333;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+.news {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #666666;
+  padding-bottom: 120px;
+}
+
+.slider {
+  height: 360px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-item-btn {
+  display: flex;
+  align-items: center;
+}
+
+.slider-item-btn:hover {
+  opacity: 0.5;
+}
+
+.slider-item-pic {
+  position: relative;
+  display: inline-block;
+}
+
+.slider-item-pic img {
+  width: 300px;
+  height: 360px;
+}
+
+.wrapper-desc-pic {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-item-pic span {
+  position: absolute;
+  bottom: 77px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+  color: #F7F7F7;
+}
+
+.slider-item-pic p {
+  position: absolute;
+  bottom: 40px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 27px;
+  color: #F7F7F7;
+}
+
+.get-notified {
+  padding-top: 239px;
+}
+
+.get-notified-description {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 40px;
+  text-align: center;
+  color: #333333;
+  padding-bottom: 59px;
+}
+
+.form-email {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.enter-email {
+  width: 540px;
+  height: 60px;
+  /* opacity: 0.5; */
+  border-radius: 0px;
+  background-color: #cccccc;
+  border: 0;
+  border-left: 1px;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #666666;
+  padding-left: 15px;
+  color: #666666;
+  font-size: 23px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+}
+
+.send-email {
+  width: 120px;
+  height: 60px;
+  background: #CD6326;
+  border: 1px solid #CD6326;
+  border-radius: 0px 5px 5px 0px;
+  font-size: 23px;
+  line-height: 27px;
+  font-family: "Open Sans", sans-serif;
+  color: #F7F7F7;
+}
+
+.send-email:hover {
+  background: #E39128;
+  border: 1px solid #E39128;
+}
+
+.send-email:active {
+  background: #8F5613;
+  border: 1px solid #8F5613;
+}
+
+footer {
+  background-color: #181617;
+  background: url(./assets/footer.png) no-repeat center;
+  height: 359px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 150px;
+  
+}
+
+.footer-logo {
+  margin-right: 120px;
+}
+
+.footer-logo p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #f7f7f7;
+}
+
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -22px;
+}
+
+.footer-item {
+  margin-right: 85px;
+}
+
+.footer-link {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 60px;
+  color: #F7F7F7;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #CD6326;
+}
+
+.footer-link:active {
+  color: #8F5613;
+}
+
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-item {
+  margin-right: 27px;
+}
+
+.social-item:last-child {
+  margin-right: 0px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+.social-icon:active {
+  transform: scale(1.1);
+}
