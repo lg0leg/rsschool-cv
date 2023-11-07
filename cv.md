@@ -1,4 +1,4 @@
-**Lahutsin Aleh**
+ Lahutsin Aleh
 ***
  L.Oleg#8188 (discord)
 ***
