@@ -3,6 +3,7 @@
 ---
 
  L.Oleg#8188 (discord)
+ Live in Minsk
 
 ---
 
@@ -23,6 +24,7 @@
     return (...args) => fn(...args.reverse())
   }
   ```
+
 ---
 
  No work experience
@@ -30,7 +32,7 @@
 ---
 
  Graduated from the Faculty of Mechanics and Mathematics
- 
+
 ---
 
- A2
+ English: A2
